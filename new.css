@@ -1,0 +1,54 @@
+body {
+    background-color: steelblue;
+    background-image: linear-gradient(90deg,rgb(90, 205, 250),rgb(89, 221, 89));
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+}
+
+.main{
+    background-color:rgb(182, 224, 221);
+    width:300px;
+    height: 420px;
+    display: grid;
+    grid-template-rows: 2fr 8fr;
+}
+
+.answerbox{
+    background-color: rgb(38, 48, 38);
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.answer{
+    color: white;
+    font-size: 32px;
+    margin: 0px;
+}
+
+.userinput{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: white 1px solid;
+    font-family: "Gotham Rounded", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333030;
+}
+
+#AC{
+    grid-column: 1/3;
+}
+
+#equal{
+    grid-column: 3/5;
+}
